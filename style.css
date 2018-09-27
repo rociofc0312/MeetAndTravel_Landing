@@ -199,7 +199,7 @@ ol {
     font-size: 24px;
     right: 30px;
     width: 50px;
-    background-color: #fb397d;
+    background-color: #ff7043;
     color: #fff;
     text-align: center;
     height: 50px;
@@ -233,7 +233,7 @@ p {
 
 .section-heading > h2 {
     font-weight: 300;
-    color: #5b32b4;
+    color: #00bfa5;
     font-size: 48px;
     margin: 0;
 }
@@ -247,7 +247,7 @@ p {
 .line-shape {
     width: 80px;
     height: 2px;
-    background-color: #fb397d;
+    background-color: #ff7043;
     margin-top: 15px;
 }
 
@@ -398,7 +398,7 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #884bdf;
+    background-color: #00bfa5;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -449,11 +449,13 @@ p {
     bottom: -130px;
     right: 85px;
     z-index: 9;
+    top: 90px;
 }
 
 .welcome-thumb img {
     height: auto;
-    width: 100%;
+    margin-left: 130px;
+    
 }
 
 .wellcome-heading > h2 {
@@ -465,7 +467,7 @@ p {
 }
 
 .get-start-area .email {
-    background: #9572e8;
+    background: #008e76;
     height: 50px;
     max-width: 260px;
     border: none;
@@ -474,22 +476,22 @@ p {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #cec1f4;
+    color: #008e76;
     opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-    color: #cec1f4;
+    color: #008e76;
     opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-    color: #cec1f4;
+    color: #008e76;
     opacity: 1;
 }
 
 .form-control::placeholder {
-    color: #cec1f4;
+    color: #008e76;
     opacity: 1;
 }
 
@@ -500,7 +502,7 @@ p {
 }
 
 .get-start-area .submit {
-    background-color: #fb397d;
+    background-color: #ff7043;
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -514,7 +516,7 @@ p {
 }
 
 .get-start-area .submit:hover {
-    background: #6f52e5;
+    background: #008e76;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -547,12 +549,12 @@ p {
 
 .single-icon > i {
     font-size: 36px;
-    color: #fb397d;
+    color: #ff7043;
 }
 
 .single-special > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #008e76;
 }
 
 .single-icon {
@@ -561,7 +563,7 @@ p {
 
 .single-special > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #008e76;
     margin-bottom: 15px;
 }
 
@@ -576,7 +578,7 @@ p {
 }
 
 .special_description_content > h2 {
-    color: #5b32b4;
+    color: #00bfa5;
     font-size: 48px;
     margin-bottom: 30px;
 }
@@ -622,7 +624,7 @@ p {
 .app-download-btn.active a,
 .app-download-btn a:hover {
     border-color: transparent;
-    background-color: #fb397d;
+    background-color: #ff7043;
 }
 
 .app-download-btn a i {
@@ -671,7 +673,7 @@ p {
 }
 
 .single-feature > i {
-    color: #fb397d;
+    color: #ff7043;
     font-size: 30px;
     display: inline-block;
     float: left;
@@ -680,7 +682,7 @@ p {
 
 .single-feature > h5 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #008e76;
 }
 
 .single-feature > p {
@@ -719,7 +721,7 @@ p {
 .video-area .video-play-btn a {
     width: 80px;
     height: 80px;
-    background-color: #fb397d;
+    background-color: #ff7043;
     color: #fff;
     text-align: center;
     display: block;
@@ -737,7 +739,7 @@ p {
 }
 
 .video-area .video-play-btn a:hover {
-    background-color: #a865e1;
+    background-color: #00bfa5;
     color: #fff;
 }
 
@@ -749,11 +751,11 @@ p {
     position: relative;
     z-index: auto;
     background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    background: -webkit-linear-gradient(to left, #5df2d6, #008e76);
+    background: -webkit-linear-gradient(right, #5df2d6, #008e76);
+    background: -webkit-gradient(linear, right top, left top, from(#5df2d6), to(#008e76));
+    background: -o-linear-gradient(right, #5df2d6, #008e76);
+    background: linear-gradient(to left, #5df2d6, #008e76);
     padding: 180px 0 80px 0;
     top: -100px;
 }
@@ -829,7 +831,7 @@ p {
 }
 
 .app-screenshots-area .owl-dot.active {
-    background-color: #fb397d;
+    background-color: #ff7043;
     border: transparent;
 }
 
@@ -921,7 +923,7 @@ p {
 -------------------------- */
 
 .clients-feedback-area .client-name > h5 {
-    color: #5b32b4;
+    color: #5df2d6;
     font-size: 22px;
     margin-top: 5px;
 }
@@ -940,7 +942,7 @@ p {
 
 .clients-feedback-area .client > i {
     font-size: 48px;
-    color: #897ceb;
+    color: #5df2d6;
     margin-bottom: 30px;
 }
 
@@ -972,8 +974,8 @@ p {
 }
 
 .clients-feedback-area .slick-dots li.slick-active button {
-    background-color: #fb397d;
-    border-color: #fb397d;
+    background-color: #ff7043;
+    border-color: #ff7043;
 }
 
 .clients-feedback-area .slick-slide.client-thumbnail {
@@ -1034,12 +1036,12 @@ p {
 -------------------------- */
 
 .our-monthly-membership {
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    background: 5df2d6;
+    background: -webkit-linear-gradient(to left, #5df2d6, #008e76);
+    background: -webkit-linear-gradient(right, #5df2d6, #008e76);
+    background: -webkit-gradient(linear, right top, left top, from(#5df2d6), to(#008e76));
+    background: -o-linear-gradient(right,#5df2d6, #008e76);
+    background: linear-gradient(to left, #5df2d6, #008e76);
 }
 
 .membership-description > h2 {
@@ -1059,13 +1061,13 @@ p {
     display: inline-block;
     text-align: center;
     line-height: 45px;
-    color: #fb397d;
+    color: #ff7043;
     font-weight: 500;
     border-radius: 23px 23px 23px 0;
 }
 
 .get-started-button > a:hover {
-    background: #5b32b4;
+    background: #008e76;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1075,7 +1077,9 @@ p {
 .get-started-button {
     text-align: right;
 }
-
+::placeholder {
+    color: black;
+}
 /* --------------------------
 :: 12.0 Team Area CSS Start
 -------------------------- */
@@ -1093,7 +1097,7 @@ p {
 
 .member-text > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #00bfa5;
 }
 
 .member-text > p {
@@ -1107,7 +1111,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(105, 75, 228, 0.8);
+    background-color: rgba(0, 142, 118, 0.8);
     border-radius: 30px 30px 30px 0;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1142,7 +1146,7 @@ p {
 .team-social-icon > a {
     font-size: 14px;
     color: #fff;
-    background: #9a81d7;
+    background: #00bfa5;
     height: 40px;
     width: 40px;
     line-height: 40px;
@@ -1170,7 +1174,7 @@ p {
 .address-text > p > span,
 .phone-text > p > span,
 .email-text > p > span {
-    color: #5b32b4;
+    color: #00bfa5;
 }
 
 .footer-contact-area .line-shape {
@@ -1202,7 +1206,7 @@ p {
 }
 
 .btn.submit-btn {
-    background: #fb397d;
+    background:#00bfa5;
     height: 48px;
     min-width: 185px;
     color: #ffffff;
@@ -1211,7 +1215,7 @@ p {
 }
 
 .btn.submit-btn:hover {
-    background: #5b32b4;
+    background: #ff7043;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1231,13 +1235,13 @@ p {
 -------------------------- */
 
 .footer-text > h2 {
-    color: #5b32b4;
+    color: #008e76;
     font-size: 72px;
     font-weight: 700;
 }
 
 .footer-social-icon > a > i {
-    background: #9b69e4;
+    background: #00bfa5;
     font-size: 14px;
     color: #ffffff;
     height: 40px;
@@ -1249,7 +1253,7 @@ p {
 }
 
 .footer-social-icon > a > i:hover {
-    background: #fb397d;
+    background: #ff7043;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
