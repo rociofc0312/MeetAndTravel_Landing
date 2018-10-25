@@ -621,7 +621,7 @@ p {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: white;
+    background-color: 	#FFFFFF;
 }
 
 .app-download-btn.active a,
