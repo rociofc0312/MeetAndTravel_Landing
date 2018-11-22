@@ -56,6 +56,7 @@
         width: 50%;
         bottom: -100px;
         right: 0;
+        
     }
     .wellcome-heading {
         margin-bottom: 70px;
@@ -151,6 +152,7 @@
         width: 90%;
         bottom: -74px;
         right: 0;
+        display:none;
     }
     .logo_area > a > h2 {
         font-size: 40px;
